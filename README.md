@@ -15,7 +15,7 @@ More details see https://github.com/fx26980/subspace-farmer/releases
  2. Running Farmer.  
    `./subspace-farmer farm --reward-address <YOURADDRESS> --node-rpc-url <YOURNODE> --plotting-cpu-cores '0,1,2,16-18' path=/data,size=5T`
  3. Running multiple paths Farmer (--plotting-cpu-cores, they are separated by spaces).  
-   ` ./subspace-farmer farm --reward-address <YOURADDRESS> --node-rpc-url <YOURNODE> --plotting-cpu-cores '0,1,16-17 2,3,18-19' path=/data1,size=5T path=/data2,size=5T`
+   `./subspace-farmer farm --reward-address <YOURADDRESS> --node-rpc-url <YOURNODE> --plotting-cpu-cores '0,1,16-17 2,3,18-19' path=/data1,size=5T path=/data2,size=5T`
 
 ### General Options
 
